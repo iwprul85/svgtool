@@ -59,7 +59,6 @@ var SvgTools = (function () {
         menu.setFills(["none", "black", "red", "blue", "yellow", "grey", "purple"]);
         menu.setSizes([1, 2, 3, 4, 5, 6]);
         menu.setShapes(["rect", "line", "circle", "ellipse", "polygon"]);
-        console.log('create menu 4');
 
         return menu.getElement();
     };
@@ -81,8 +80,6 @@ var SvgTools = (function () {
             menu.appendChild(div);
             
         });
-
-        console.log('create menu 6');
         return menu;
     };
 
